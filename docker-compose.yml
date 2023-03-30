@@ -9,3 +9,4 @@ services:
       - ./static:/usr/share/nginx/html
     environment:
       - FOO=BAR
+      - TEST=123

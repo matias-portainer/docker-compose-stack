@@ -10,3 +10,4 @@ services:
     environment:
       - FOO=BAR
       - TEST=123
+      - AAA=BBB

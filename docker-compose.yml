@@ -4,10 +4,11 @@ services:
     image: nginx:alpine
     restart: always
     ports:
-      - "3002:80"
+      - "3003:80"
     volumes:
       - ./static:/usr/share/nginx/html
     environment:
       - FOO=BAR
       - TEST=123
       - AAA=BBB
+      - BBB=AAA

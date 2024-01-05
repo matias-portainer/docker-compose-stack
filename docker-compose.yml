@@ -4,7 +4,7 @@ services:
     image: nginx:alpine
     restart: always
     ports:
-      - "3009:80"
+      - "3011:80"
     volumes:
       - ./static:/usr/share/nginx/html
     environment:
